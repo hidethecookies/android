@@ -1,4 +1,4 @@
-Team-Hydra CM Based Manifest
+Team-Hydra CM Based Manifest for HTC Evo 3d/Shooter
 ===========
 
 Getting Started
@@ -8,7 +8,7 @@ To get started with Team-Hydra/CyanogenMod build, you'll need to get familiar wi
 
 To initialize your local repository using the Team-Hydra trees, use a command like this:
 
-    repo init -u git://github.com/Team-Hydra/android.git -b cm-11.0
+    repo init -u git://github.com/hidethecookies/android.git -b cm-11.0
 
 Then to sync up:
 
