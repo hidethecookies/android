@@ -36,41 +36,17 @@
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="development" name="CyanogenMod/android_development" />
-  <project path="device/asus/flo" name="Team-Hydra/android_device_asus_flo" />
+ 
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" groups="pdk" />
   <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" groups="pdk" />
-  <project path="device/generic/mips" name="CyanogenMod/android_device_generic_mips" groups="pdk" />
-  <project path="device/generic/x86" name="CyanogenMod/android_device_generic_x86" groups="pdk" />
-  <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" groups="device" />
-  <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
-  <project path="device/htc/glacier" name="Team-Hydra/android_device_htc_glacier" />
-  <project path="device/htc/jewel" name="Team-Hydra/android_device_htc_jewel" />
-  <project path="device/htc/m7-common" name="Team-Hydra/android_device_htc_m7-common" />
-  <project path="device/htc/m7spr" name="Team-Hydra/android_device_htc_m7spr" />
-  <project path="device/htc/msm7x30-common" name="Team-Hydra/android_device_htc_msm7x30-common" />
+ 
   <project path="device/htc/msm8660-common" name="Team-Hydra/android_device_htc_msm8660-common" />
-  <project path="device/htc/msm8960-common" name="Team-Hydra/android_device_htc_msm8960-common" />
-  <project path="device/htc/holiday" name="Team-Hydra/android_device_htc_holiday" />
-  <project path="device/htc/pyramid" name="Team-Hydra/android_device_htc_pyramid" />
-  <project path="device/htc/s4-common" name="Team-Hydra/android_device_htc_s4-common" />
+ 
   <project path="device/htc/shooter" name="Team-Hydra/android_device_htc_shooter" />
   <project path="device/htc/shooter-common" name="Team-Hydra/android_device_htc_shooter-common" />
-  <project path="device/htc/shooterk" name="Team-Hydra/android_device_htc_shooterk" />
-  <project path="device/htc/shootervm" name="Team-Hydra/android_device_htc_shootervm" />
-  <project path="device/htc/speedy" name="Team-Hydra/android_device_htc_speedy" />
-  <project path="device/samsung/d710" name="Team-Hydra/android_device_samsung_d710" />
-  <project path="device/samsung/galaxys2-common" name="CyanogenMod/android_device_samsung_galaxys2-common" />
-  <project path="device/samsung/jflte" name="Team-Hydra/android_device_samsung_jflte" />
-  <project path="device/samsung/klte-common" name="Team-Hydra/android_device_samsung_klte-common" />
-  <project path="device/samsung/kltexx" name="Team-Hydra/android_device_samsung_kltexx" />
-  <project path="device/samsung/msm8960-common" name="CyanogenMod/android_device_samsung_msm8960-common" />
-  <project path="device/samsung/msm8974-common" name="Team-Hydra/android_device_samsung_msm8974-common" />
-  <project path="device/samsung/qcom-common" name="Team-Hydra/android_device_samsung_qcom-common" />
+  
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
@@ -371,16 +347,10 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="kernel/google/msm" name="Team-Hydra/android_kernel_google_msm" />
-  <project path="kernel/htc/m7" name="Team-Hydra/android_kernel_htc_m7" />
-  <project path="kernel/htc/msm7x30" name="Team-Hydra/android_kernel_htc_msm7x30-3.0" />
+  
   <project path="kernel/htc/msm8660" name="Team-Hydra/android_kernel_htc_msm8660" />
   <project path="kernel/htc/msm8660-caf" name="Team-Hydra/android_kernel_htc_msm8660-caf" />
-  <project path="kernel/htc/msm8960" name="Team-Hydra/android_kernel_htc_msm8960" />
-  <project path="kernel/samsung/smdk4412" name="Team-Hydra/android_kernel_samsung_smdk4412" />
-  <project path="kernel/samsung/jf" name="Team-Hydra/android_kernel_samsung_jf" />
-  <project path="kernel/samsung/klte" name="Team-Hydra/android_kernel_samsung_klte" />
-  <project path="kernel/samsung/Ramdisks" name="Team-Hydra/SGS4-RAMDISKS" />
+ 
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
@@ -524,9 +494,9 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project path="vendor/asus" name="Team-Hydra/android_vendor_asus" />
+
   <project path="vendor/cm" name="Team-Hydra/android_vendor_cm" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   <project path="vendor/htc" name="Team-Hydra/android_vendor_htc" />
-  <project path="vendor/samsung" name="Team-Hydra/android_vendor_samsung" />
+
 </manifest>
